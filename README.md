@@ -56,7 +56,7 @@ The applications will be in production (live) as long as there are enough "Cycle
 We need to create the canisters for both the backend and the frontend:
 
 ```shell
-dfx canister --all --network=ci
+dfx canister install --all --network=ic
 ```
 
 Next, run the following command to deploy it to the ICP network:
