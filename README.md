@@ -11,18 +11,28 @@ This repository consists of 4 smaller decentralized application as follow:
 * Decentra1Vorol Token
 * NFTMarket
 
-Each of the project has its own `README.md`, but the theory for ICP blockchain is documented in the next section in this main README file.
+Each of the project has its own `README.md`, but since all applications are using Internet Computer Blockchain, the base architecture and development setup guide can be found in this `README.md`.
 
 ## General Setup
 
-To start any development on ICP blockchain, we need the SDK. Since I'm using Mac, this documentation will only contain Linux/Unix-executable code. If you are using Windows operating system, please visit the official ICP installation guide [here](https://internetcomputer.org/docs/current/developer-docs/setup/install/).
+To start any development on ICP blockchain, we need the SDK. For more details, please visit the official ICP installation guide [here](https://internetcomputer.org/docs/current/developer-docs/setup/install/).
+
+### Linux/Unix
+
+```shell
+sh -ci "$(curl -fsSL https://internetcomputer.org/install.sh)"
+```
+
+### Windows
+
+There is no native support for dfx on Windows. However, by installing the [Windows Subsystem for Linux (WSL)](https://learn.microsoft.com/en-us/windows/wsl/install), you can run dfx also on a Windows system.
 
 ## Development Setup
 
 If you want to test your project locally, you can use the following commands:
 
 ```bash
-# Starts the replica, running in the background
+# Starts the replica (ICP local server), running in the background
 dfx start --background
 
 # Deploys your canisters to the replica and generates your candid interface
