@@ -87,7 +87,7 @@ LendLord's core business logic and data reside within Motoko-based smart contrac
 
 ICP blockchain underpins the LendLord application, furnishing a decentralized, secure, and scalable environment for Motoko smart contracts and canisters. ICP's Consensus and Network Nervous System (NNS) guarantee consistent and synchronized blockchain state across all participating nodes.
 
-## Setup Guide
+## Development Setup
 
 If you want to test your project locally, you can use the following commands:
 
@@ -111,11 +111,34 @@ Which will start a server at `http://localhost:8080`, proxying API requests to t
 
 ## Production
 
-To deploy any decentralized application in ICP blockchain, we need to make sure that we have enough "Cycles". Once we did that, we just need to run the following:
+The applications will be in production (live) as long as there are enough "Cycles".
+
+We need to create the canisters for both the backend and the frontend:
 
 ```shell
-dfx start --background
+dfx canister --all --network=ci
+```
+
+Next, run the following command to deploy it to the ICP network:
+
+```shell
 dfx deploy --network ic
 ```
 
 Now, you will see the live URL for both your backend and frontend applications!
+
+## Front- & Backend Modification
+
+If there is any code modification in either end, the canister needs to be reinstall again. FOr this, run the following command:
+
+```shell
+dfx canister install <CANISTER_NAME> --network=ic --mode=reinstall
+```
+
+This will update our source code in the ICP canister. Lastly, we need to redeploy with:
+
+```shell
+dfx deploy --network ic
+```
+
+---

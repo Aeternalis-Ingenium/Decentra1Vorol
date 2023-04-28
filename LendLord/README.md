@@ -2,7 +2,15 @@
 
 ---
 
+## On-Chain DApp
+
 ![FrontendLendLord](../Assets/LendLord/LendLord-Frontend.jpg)
+
+---
+
+## On-Chain API Documentation
+
+![APILendLord](../Assets/LendLord/LendLord-API.jpg)
 
 ---
 
@@ -12,7 +20,7 @@ A decentralized financial application built on Internet Computer Protocol blockc
 
 * Blockchain $\rightarrow$ Internet Computer Protocol.
 * Smart Contract $\rightarrow$ Motoko (ICP's native programming language).
-* Frontend $\rightarrow$ React JS
+* Frontend $\rightarrow$ Vanilla JavaScript.
 
 ## Production
 
