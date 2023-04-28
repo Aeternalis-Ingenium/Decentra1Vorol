@@ -75,7 +75,17 @@ dfx deploy --network ic
 
 ## Internet Computer Protocol
 
-ICP is a novel blockchain technology created by Dominic Williams and the DFINITY Foundation. ICP aims to revolutionize the way we build and interact with decentralized applications by offering unlimited scalability, unparalleled security, and true decentralization. This protocol serves as a seamless extension of the internet, enabling the development and deployment of decentralized applications at scale.
+![ICP-Blockchain](Assets/ICP-Blockchain.jpg)
+<p align=center>Source: <a href="https://internetcomputer.org/docs/current/home">ICP Blockchain Diagram</a>.</p>
+
+ICP is a novel blockchain technology created by Dominic Williams and the DFINITY Foundation. ICP aims to revolutionize the way we build and interact with decentralized applications by offering unlimited scalability, unparalleled security, and true decentralization. This protocol serves as a seamless extension of the internet, enabling the development and deployment of decentralized applications at scale. The ICP Dashboard cand be found [here](https://dashboard.internetcomputer.org/).
+
+### ICP Blockchain Architecture
+
+All applications deployed in ICP blockchain follow the same architecture/structure to setup the communication between frontend and backend (between canisters) and from backend with data stored in the data storage layer.
+
+![ICP BlockChain Architecture](Assets/ICPBlockchainDiagram.jpg)
+<p align=center>ICP Blockchain Architecture in a Nurshell with Full-Stack Application named "A".</p>
 
 ### Chain Key Technology
 
@@ -112,6 +122,9 @@ Modify the canister's state through state-changing functions. Key features inclu
 Specialized groups of nodes processing and storing canister data, interconnected and running in parallel. This structure allows horizontal scaling, handling numerous transactions and smart contract executions simultaneously, while maintaining decentralization and security.
 
 ## ICP Cycles
+
+![Cycles](Assets/Cycles.jpg)
+<p align=center>Source: <a href="https://www.coinhustle.com/canisters-explained-an-evolution-of-smart-contracts/">Coinhustle - Canisters Explained</a></p>
 
 **Cycles** are a unit of computation that represents the resources required to execute smart contract code and perform operations on the ICP blockchain. Cycles are consumed when canisters perform actions such as processing requests, storing data, or updating the state of the smart contracts. Cycles serve several purposes in the ICP ecosystem.
 
