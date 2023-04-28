@@ -1,0 +1,29 @@
+{
+  "canisters": {
+    "LendLord_backend": {
+      "main": "src/LendLord_backend/main.mo",
+      "type": "motoko"
+    },
+    "LendLord_frontend": {
+      "dependencies": [
+        "LendLord_backend"
+      ],
+      "frontend": {
+        "entrypoint": "src/LendLord_frontend/src/index.html"
+      },
+      "source": [
+        "src/LendLord_frontend/assets",
+        "dist/LendLord_frontend/"
+      ],
+      "type": "assets"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}
