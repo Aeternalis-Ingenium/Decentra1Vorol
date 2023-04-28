@@ -22,6 +22,14 @@ A decentralized application for taking note with Kanban style.
 * Smart Contract $\rightarrow$ Motoko (ICP's native programming language).
 * Frontend $\rightarrow$ React JS.
 
+## BlockNote Architecture
+
+All stacks are converted into WebAssembly in the canister where they can communicate via http and the data are stored in ICP decentralized data center.
+
+![BNArch](../Assets/BlockNote/BlockNoteArch.jpg)
+<p align=center>BlockNote Architecture Diagram.</p>
+
+
 ## Production
 
 ### Frontend

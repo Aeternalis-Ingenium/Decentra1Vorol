@@ -22,6 +22,13 @@ A decentralized financial application built on Internet Computer Protocol blockc
 * Smart Contract $\rightarrow$ Motoko (ICP's native programming language).
 * Frontend $\rightarrow$ Vanilla JavaScript.
 
+## BlockNote Architecture
+
+All stacks are converted into WebAssembly in the canister where they can communicate via http and the data are stored in ICP decentralized data center.
+
+![BNArch](../Assets/LendLord/LendLordArch.jpg)
+<p align=center>LendLord Architecture Diagram.</p>
+
 ## Production
 
 ### Frontend
