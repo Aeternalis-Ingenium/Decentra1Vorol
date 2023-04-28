@@ -1,6 +1,6 @@
 # Decentra1Vorol
 
---
+---
 
 This is a learning project that showcases my theoretical and practical knowledge about Blockchain. All decentralized applications will be used to pass **SE26 Blockchain & Cryptography** module as a part of my software engineering study program at CODE University of Applied Sciences.
 
