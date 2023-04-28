@@ -148,7 +148,7 @@ This project is not only to pass the module SE26 Blockchain & Cryptography, but 
 
 In March, and April, I conducted a research to find the most scalable blockchain with the following criteria:
 * A proper decentralization;
-* Stable lifecycle adn network;
+* Stable lifecycle and network;
 * Low cost for on-chain data storage.
 
 Here is my research. Please send me a DM on Slack if you don't have the access to my GDrive.
