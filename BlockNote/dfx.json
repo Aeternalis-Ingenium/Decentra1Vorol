@@ -1,0 +1,29 @@
+{
+  "canisters": {
+    "BlockNote_backend": {
+      "main": "src/BlockNote_backend/main.mo",
+      "type": "motoko"
+    },
+    "BlockNote_frontend": {
+      "dependencies": [
+        "BlockNote_backend"
+      ],
+      "frontend": {
+        "entrypoint": "src/BlockNote_frontend/src/index.html"
+      },
+      "source": [
+        "src/BlockNote_frontend/assets",
+        "dist/BlockNote_frontend/"
+      ],
+      "type": "assets"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}
