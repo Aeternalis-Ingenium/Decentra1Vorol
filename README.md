@@ -141,3 +141,14 @@ Node providers in the ICP network are compensated for their contributions to the
 Cycles act as a stable, predictable unit of value for computation within the ICP ecosystem. Users and developers can purchase cycles using ICP tokens, which are then used to pay for the execution of their canisters. This establishes a clear relationship between the value of ICP tokens and the cost of computation on the Internet Computer.
 
 It is important to note that cycles are not a separate cryptocurrency or token; they are solely used as a unit of measurement for computation within the ICP ecosystem. Developers and users must ensure that their canisters have sufficient cycles to perform the desired operations, or else their requests may be rejected or their canisters may become inactive due to insufficient resources.
+
+## Why Internet Computer Blockchain?
+
+This project is not only to pass the module SE26 Blockchain & Cryptography, but also to familiarize myself in developing DApp on Internet Computer Blockchain. My venture called [PLENO](https://pleno.earth) will be the big project that I want to build on top of Internet Computer Blockchain.
+
+I conducted a full month for my resarch to find the most scalable blockchain that is also environmental friendly and actually decentralized and not hosted in AWS like Ethereum 😬. Here is my research. Please send me a DM on Slack if you don't have access.
+
+![BlockchainResearch](Assets/BlockchainResearch.jpg)
+<p align=center><a href="https://docs.google.com/spreadsheets/d/1iUhIPrJHUt_WalwPsJg3h37VgPjTyGr6gn9K3gpGcvk/edit?usp=sharing">The most Scalable Blockchain for On-Chain Data Storage,a proper Decentralization, Stable Lifecycle, and low Cost</a>.</p>
+
+---
