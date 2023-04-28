@@ -26,7 +26,7 @@ document.querySelector("form").addEventListener("submit", async function(event) 
   }
 
   await LendLord_backend.calculateCompoundInterest(isTransaction);
-  update();
+  await update();
 
   document.getElementById("input-amount").value = "";
   document.getElementById("withdrawal-amount").value = "";

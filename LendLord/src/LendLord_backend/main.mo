@@ -28,14 +28,14 @@ actor LendLord {
   };
 
   public func calculateCompoundInterest(isTransaction : Bool) : async () {
+    let currentTime = Time.now();
     if (isTransaction == true) {
-      let currentTime = Time.now();
       let elapsedTimeNS = currentTime - startTime;
       let elapsedTimeS = Float.fromInt(elapsedTimeNS / 1000000000);
       currentBalance := currentBalance * (1.01 ** elapsedTimeS);
-      startTime := currentTime;
     } else {
       Debug.print(debug_show (currentBalance));
     };
+    startTime := currentTime;
   };
 };
