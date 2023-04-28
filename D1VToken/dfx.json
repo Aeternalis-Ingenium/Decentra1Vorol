@@ -1,0 +1,29 @@
+{
+  "canisters": {
+    "D1VToken_backend": {
+      "main": "src/D1VToken_backend/main.mo",
+      "type": "motoko"
+    },
+    "D1VToken_frontend": {
+      "dependencies": [
+        "D1VToken_backend"
+      ],
+      "frontend": {
+        "entrypoint": "src/D1VToken_frontend/src/index.html"
+      },
+      "source": [
+        "src/D1VToken_frontend/assets",
+        "dist/D1VToken_frontend/"
+      ],
+      "type": "assets"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}
