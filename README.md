@@ -146,9 +146,14 @@ It is important to note that cycles are not a separate cryptocurrency or token; 
 
 This project is not only to pass the module SE26 Blockchain & Cryptography, but also to familiarize myself in developing DApp on Internet Computer Blockchain. My venture called [PLENO](https://pleno.earth) will be the big project that I want to build on top of Internet Computer Blockchain.
 
-I conducted a full month for my resarch to find the most scalable blockchain that is also environmental friendly and actually decentralized and not hosted in AWS like Ethereum 😬. Here is my research. Please send me a DM on Slack if you don't have access.
+In March, and April, I conducted a research to find the most scalable blockchain with the following criteria:
+* A proper decentralization;
+* Stable lifecycle adn network;
+* Low cost for on-chain data storage.
+
+Here is my research. Please send me a DM on Slack if you don't have the access to my GDrive.
 
 ![BlockchainResearch](Assets/BlockchainResearch.jpg)
-<p align=center><a href="https://docs.google.com/spreadsheets/d/1iUhIPrJHUt_WalwPsJg3h37VgPjTyGr6gn9K3gpGcvk/edit?usp=sharing">The most Scalable Blockchain for On-Chain Data Storage,a proper Decentralization, Stable Lifecycle, and low Cost</a>.</p>
+<p align=center><a href="https://docs.google.com/spreadsheets/d/1iUhIPrJHUt_WalwPsJg3h37VgPjTyGr6gn9K3gpGcvk/edit?usp=sharing">Most Scalable Blockchains</a>.</p>
 
 ---
