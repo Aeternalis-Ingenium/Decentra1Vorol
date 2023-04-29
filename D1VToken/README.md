@@ -18,6 +18,10 @@
 
 ---
 
+## Architecture
+
+![D1VToken-Arch](../Assets/D1VToken/D1VTokenArch.jpg)
+
 ## Production
 
 Please consider that due to the "Gass Reverse Model" in ICP blockchain, I used an actual ICP token to buy the cycles to deploy my DApp. By the time someone access this DApp online, it could already be taken down. The gass reverse model means that the owner of the platform pays the gass fee for the users.
